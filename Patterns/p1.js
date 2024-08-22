@@ -44,3 +44,12 @@ for(let i = 0; i < 4; i++){// for outer rows
    }
    console.log(spa2.trim())//trim is optional (for removce extra outside spaces from both side)
 }
+
+//solution without ertra variable
+
+for(let i = 0; i < 4; i++){
+    for(let j = 0; j < 4; j++){
+        process.stdout.write("5 ")
+    }
+    console.log("")
+}
